@@ -1,69 +1,19 @@
-
-.oceanxx {
-  fill: rgb(59, 59, 59);
+.wrapper {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
 }
 
-.landxx
-{
-	fill: #363a74;
-	stroke: #ffffff;
-	stroke-width: 0.5;
-	fill-rule: evenodd;
-  transition: all .02s ease;
-}
+svg {
+	border: 1px solid red;
+	top: 0;
+	left: 0;
+ }
 
-.landxx:hover
-{
-	fill: #2166b4;
-	stroke: #ffffff;
-	stroke-width: 0.5;
-	fill-rule: evenodd;
+path:hover {
+	fill: green;
 }
-
-.subxx
-{
-	opacity: 0;
-	fill: #c0c0c0;
-	stroke: #000000;
-	stroke-width: 0.3;
-}
-
-.circlexx
-{
-	opacity: 0;
-	fill: #c0c0c0;
-	stroke: #000000;
-	stroke-width: 0.5;
-}
-/* 
-.antxx
-{
-	opacity: 1;
-	fill: #c0c0c0;
-} */
-
-.noxx
-{
-	opacity: 0;
-	fill: #c0c0c0;
-	stroke: #000000;
-	stroke-width: 0.5;
-}
-
-.limitxx
-{
-	opacity: 0;
-	fill: #c0c0c0;
-	stroke: #ffffff;
-	stroke-width: 0.2;
-	fill-rule: evenodd;
-}
-
-.unxx
-{
-	opacity: 0;
-	fill: #c0c0c0;
-	stroke: #000000;
-	stroke-width: 0.3;
-}
-
